@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "the_fields",
+	"version": "${version}",
+	"name": "The Fields",
+	"description": "This mod is about cotton fields and the old times. Explore the new cotton fields biome and use cotton to make wool like materials.",
+	"authors": [
+		"the_blue_shark"
+	],
+	"contributors": [
+		"Kaupenjoe"
+	],
+	"contact": {
+
+	},
+	"license": "All Rights Reserved",
+	"icon": "assets/the-fields/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.the_blue_shark.the_fields.TheFields"
+		],
+		"fabric-datagen": [
+			"net.the_blue_shark.the_fields.TheFieldsDataGenerator"
+		],
+		"client": [
+			"net.the_blue_shark.the_fields.TheFieldsClient"
+		]
+	},
+	"mixins": [
+		"the_fields.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.6",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
