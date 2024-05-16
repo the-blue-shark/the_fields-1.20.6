@@ -3,18 +3,18 @@
 	"id": "the_fields",
 	"version": "${version}",
 	"name": "The Fields",
-	"description": "This mod is about cotton fields and the old times. Explore the new cotton fields biome and use cotton to make wool like materials.",
+	"description": "Brings back the good old times.",
 	"authors": [
 		"the_blue_shark"
 	],
-	"contributors": [
+	"persons I copied code from": [
 		"Kaupenjoe"
 	],
 	"contact": {
 
 	},
 	"license": "All Rights Reserved",
-	"icon": "assets/the-fields/icon.png",
+	"icon": "assets/the_fields/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "blue_dye",
+  "ingredients": [
+    {
+      "item": "minecraft:blue_dye"
+    },
+    {
+      "item": "the_fields:cotton_seeds"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "the_fields:edible_cotton_seeds"
+  }
+}
