@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "the_fields:block/pepper_crop/pepper_crop_stage4"
+  }
+}

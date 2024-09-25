@@ -7,9 +7,12 @@
 	"authors": [
 		"the_blue_shark"
 	],
-	"persons I copied code from": [
+	"persons I copied code from :)": [
 		"Kaupenjoe"
 	],
+	"strawberry and corn item texture": [
+		"KeepMeow"
+    ],
 	"contact": {
 
 	},
@@ -32,7 +35,7 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.15.11",
-		"minecraft": "~1.20.6",
+		"minecraft": ">=1.21",
 		"java": ">=21",
 		"fabric-api": "*"
 	},

@@ -1,0 +1,25 @@
+
+{
+  "display": {
+    "icon": {
+      "id": "the_fields:edible_cotton_seeds"
+    },
+    "title": "I don't feel so good!",
+    "description": "Eat the questionable cotton seeds.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "minecraft:husbandry/plant_seed",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "the_fields:edible_cotton_seeds"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "the_fields:block/tomato_crop/tomato_crop_stage_0"
+  }
+}

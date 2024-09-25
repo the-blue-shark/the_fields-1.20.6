@@ -1,0 +1,63 @@
+
+{
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "cotton": {
+      "conditions": {
+        "location": [
+          {
+            "block": "the_fields:cotton_crop",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      },
+      "trigger": "minecraft:placed_block"
+    },
+    "pepper": {
+      "conditions": {
+        "location": [
+          {
+            "block": "the_fields:pepper_crop",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      },
+      "trigger": "minecraft:placed_block"
+    },
+    "corn": {
+      "conditions": {
+        "location": [
+          {
+            "block": "the_fields:corn_crop",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      },
+      "trigger": "minecraft:placed_block"
+    },
+    "tomato": {
+      "conditions": {
+        "location": [
+          {
+            "block": "the_fields:tomato_crop",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      },
+      "trigger": "minecraft:placed_block"
+    }
+
+  },
+  "requirements": [
+    [
+      "pepper",
+      "cotton",
+      "tomato",
+      "corn"
+    ]
+  ],
+  "rewards": {
+    "function": "the_fields:give_seeds_advancement"
+  },
+  "sends_telemetry_event": true
+}
